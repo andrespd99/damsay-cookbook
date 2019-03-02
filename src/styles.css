@@ -15,3 +15,7 @@
     src: url(./assets/fonts/BigJohnPRO-Light.otf);
     font-weight: lighter;
 }
+
+body {
+    margin: 0;
+}
