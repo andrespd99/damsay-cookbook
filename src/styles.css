@@ -18,4 +18,18 @@
 
 body {
     margin: 0;
+    font-family: big-john;
+}
+
+ul {
+    margin: 4px 0 4px 10px;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h3 {
+    margin: 15px 0 5px 0;
 }

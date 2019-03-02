@@ -1,6 +1,5 @@
 
-export let RECIPES: [] = [
-    
+export const RECIPES: [] = [
       {
         image: "http://forkgasm.com/images/carbonara.jpg",
         name: "Turnip Noodle Carbonara",

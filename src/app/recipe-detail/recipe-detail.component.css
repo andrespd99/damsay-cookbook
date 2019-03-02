@@ -1,0 +1,51 @@
+
+.detail-title {
+    margin: 40px 39px;
+}
+
+.detail-content {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-content-ingredients {
+    width: 31vw;
+    margin: 0 10px;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+.detail-content-steps {
+    width: 46vw;
+    margin: 0 10px;
+
+}
+
+.detail-content-figure {
+    margin: 0 10px;
+}
+
+.detail-content-figure-img {
+    width: 31vw;
+}
+
+.detail-content-ingredients-ingredient {
+    margin-left: 15px; 
+}
+
+.ingredient-property {
+    font-weight: bold;
+}
+
+.steplist {
+    list-style: upper-roman
+}
+
+.steps{
+    margin: 12px 0;
+    font-size: 20px;
+}

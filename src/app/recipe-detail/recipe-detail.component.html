@@ -1,3 +1,28 @@
-<div *ngIf="recipe">
-  <h1>{{recipe.name}}</h1>
+<div class="detail">
+  <div class="detail-title">
+    <h1>{{recipe.name | uppercase}}</h1>
+  </div> 
+  <div class="detail-content">
+      <figure class="detail-content-figure">
+        <img [src]="recipe.image" alt="" class="detail-content-figure-img" >
+      </figure>
+      <div class="detail-content-steps">
+        <h2>STEPS</h2>
+        <div class="detail-content-steps-list">
+          <ul *ngFor="let step of steps" class="steplist">
+              <li class="steps">{{step.description}}</li>
+          </ul>
+        </div>
+      </div>
+      <div class="detail-content-ingredients">
+        <h2>INGREDIENTS</h2>
+        <div class="detail-content-ingredients-ingredient" *ngFor="let ingredient of ingredients">
+          <h3>{{ingredient.name}}</h3>
+          <ul>
+              <li> <span class="ingredient-property">Amount: </span> {{ingredient.amount}} {{ingredient.unit}}</li>
+              <li><span class="ingredient-property">Preparation: </span> {{ingredient.preparation}} </li>
+          </ul>
+        </div>
+      </div>
+  </div>
 </div>
