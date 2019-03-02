@@ -15,6 +15,12 @@ export class HomeComponent implements OnInit {
 
   recipes = RECIPES;
 
+  selectedRecipe: [];
+
+  onSelect(recipe: []){
+
+  }
+
   ngOnInit(
     
   ) {
