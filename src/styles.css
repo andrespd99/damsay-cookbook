@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face{
+    font-family: big-john;
+    src: url(./assets/fonts/BigJohnPRO-Bold.otf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: big-john;
+    src: url(./assets/fonts/BigJohnPRO-Regular.otf);
+    font-weight: normal
+}
+@font-face{
+    font-family: big-john;
+    src: url(./assets/fonts/BigJohnPRO-Light.otf);
+    font-weight: lighter;
+}

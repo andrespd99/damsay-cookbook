@@ -1,0 +1,18 @@
+<div class="recipes-list">
+
+  <div class="recipe" *ngFor='let recipe of recipes'>
+      <figure class="recipe-figure">
+        <img class="recipe-figure-img" [src]="recipe.image" alt="recipe image">
+      </figure>
+      <div class="recipe-titlebox">
+        <h1 class="recipe-titlebox-title">{{recipe.name}}</h1>
+      </div>
+      <div class="recipe-descbox">
+          <p class="recipe-dexbox-desc">{{recipe.description}}</p>
+        </div>
+      <div class="recipe-buttonbox">
+        <button class="recipe-buttonbox-button">View recipe</button>
+      </div>
+  </div>
+
+</div>
